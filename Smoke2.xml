@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+
+    <test thread-count="5" name="Test">
+
+        <classes>
+
+
+            <class name="LoginInTest"/>
+            <class name="RegisterNewUser"/>
+            <class name="NavigateChapter1_Test"/>
+            <class name="ACCOUNT_SETTINGS_View_Terms"/>
+            <class name="ACCOUNT_SETTINGS_Change_Goal"/>
+            <class name="ACCOUNT_SETTINGS_Change_StudyTime"/>
+            <class name="ACCOUNT_SETTINGS_View_Policy"/>
+            <class name="ACCOUNT_SETTINGS_Reset_Book"/>
+
+
+
+
+
+        </classes>
+
+    </test>
+
+</suite> <!-- Suite -->
